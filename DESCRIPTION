@@ -1,0 +1,11 @@
+Package: RComtrade
+Type: Package
+Title: Download Comtrade data
+Version: 0.1
+Date: 2015-10-16
+Authors@R: c(person(given = "Oliver", family = "Reiter", role = c("cre", "aut"),
+                    email = "reiter@wiiw.ac.at"))
+Description: Download trade flows from the Comtrade website (comtrade.un.org/data/)
+Depends: R (>= 2.10.0), stats, rjson
+License: GPL-2
+Suggests: testthat
