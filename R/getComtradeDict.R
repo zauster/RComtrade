@@ -7,10 +7,10 @@
 #' @return the dictionary as a data.frame
 #' @export
 
-getComtradeDict <- function(parameter = "region")
+getComtradeDict <- function(parameter = "reporter")
 {
     string <- switch(parameter,
-                     region = "http://comtrade.un.org/data/cache/reporterAreas.json",
+                     reporter = "http://comtrade.un.org/data/cache/reporterAreas.json",
                      partner = "http://comtrade.un.org/data/cache/partnerAreas.json",
                      HS = "http://comtrade.un.org/data/cache/classificationHS.json",
                      H1 = "http://comtrade.un.org/data/cache/classificationH1.json",
